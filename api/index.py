@@ -1,4 +1,7 @@
-from main import handler
+from fastapi import FastAPI
 
-# This is the entry point for Vercel
-app = handler
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "Cosmas Ngeno Real Estate Assistant is live on Vercel!"}
