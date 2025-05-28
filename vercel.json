@@ -2,14 +2,10 @@
   "functions": {
     "api/index.py": {
       "runtime": "python3.9"
-    }
-    {
-  "functions": {
+    },
     "api/*.php": {
-      "runtime": "vercel-php@0.4.0"  // Make sure this has a proper version
+      "runtime": "vercel-php@0.4.0"
     }
-  }
-}
   },
   "routes": [
     {
@@ -17,6 +13,5 @@
       "dest": "/api/index.py"
     }
   ],
-  "env": {
-  }
+  "env": {}
 }
