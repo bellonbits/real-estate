@@ -21,7 +21,7 @@ from langchain_groq import ChatGroq
 from langchain.prompts import PromptTemplate
 
 # Configuration - Use environment variables for security
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "your-groq-api-key")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
 GROQ_MODEL = "llama3-70b-8192"
 
 # Database configuration - Use environment variables
